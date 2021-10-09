@@ -1,0 +1,41 @@
+.container {
+    max-width: 1190px;
+    margin: 50px auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.userCard_section {
+    width: 150px;
+    /*height: 200px;*/
+    border: 1px black solid;
+    background: #e87210;
+    text-align: center;
+    padding: 20px;
+    margin: 2px;
+}
+
+.user_img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 2px black solid;
+}
+
+.user_name{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+@media (max-width:992px){
+    .container{
+        max-width: 800px;
+    }
+}
+@media (max-width:480px){
+    .container{
+        max-width: 250px;
+    }
+}
